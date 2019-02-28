@@ -101,6 +101,7 @@ class Adabound(Optimizer):
 from keras.layers import *
 from keras.models import *
 
+
 m_input = Input((32,))
 m_out = Dense(10,)(m_input)
 m_out = Dense(1)(m_out)
